@@ -1,0 +1,26 @@
+{%include 'nav.html'%}
+
+<body>
+
+<form name="postdetails" id='postdetails'class="postdetails">
+<h3>Postage option</h3>
+    <input type="checkbox" id="post_type_1"> UK 1st Class = £{{postage_type_1}}</input>
+<br>
+    <input type="checkbox" id="ostage_type_2">UK Tracked = £{{postage_type_2}}</input>
+<br>
+<h3>Address</h3>
+    <input type="text" id="address" maxlength="70">
+<br>
+<h5>Check the box to encrypt using the vendors PGP</h5>
+    <input type="checkbox" id="address" name="autoencrypt">
+</form>
+
+
+
+
+
+
+</body>
+
+
+{% include 'footer.html'%}
